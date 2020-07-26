@@ -1,0 +1,167 @@
+@media (min-width: 576px){
+    .container-fluid h3{
+        font-size: 45px;
+    }
+    .container-fluid h3 b{
+        font-size: 47px;
+    }
+    .facts h3,
+    .professional h3,
+    .personal h3,
+    .languages h3,
+    .education h3{
+        font-size: 21px;
+    }
+    .facts-wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px 52px;
+    }
+    .facts-part{
+        padding-right: 24px;
+    }
+    .facts-part-1{
+        margin-top: -10px;
+        padding-right: 18px;
+    }
+    .facts-part h3,
+    .facts-part-1 h3{
+        font-size: 47px;
+    }
+    .facts-part p,
+    .facts-part-1 p{
+        color: #000000cf;
+        padding-top: 25px;
+        line-height: 26px;
+    }
+    .facts-part-1 p{
+        padding-top: 19px;
+    }
+}
+@media (min-width: 768px){
+    .hero-wrapper h6{
+        padding-top: 121px;
+        font-size: 23px;
+        color: #231d2ad1;
+    }
+    .hero-wrapper h1{
+        font-size: 58px;
+        color: #2d2636;
+    }
+    .hero-wrapper p{
+        font-size: 20px;
+        letter-spacing: 16px;
+        word-spacing: 0px;
+        color: #231d2ad1;
+        padding-top: 28px;
+    }
+    #profile{
+        position: relative;
+        background-color: #fff;
+    }
+    #id{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-image{
+        flex-basis: 31%;
+    }
+    .profile-image img{
+        width: 100%;
+        height: 98vh;
+    }
+    .profile-details{
+        position: initial;
+    }
+    .profile-info h2{
+        font-size: 38px;
+        padding-top: 75px;
+    }
+    .primary-btn .download{
+        padding: 11px 13px;
+    }
+    .primary-btn .scroll{
+        padding: 11px 13px;
+    }
+    .about{
+        position: relative;
+        top: 252px;
+    }
+    .about-heading h2,
+    .skills-heading h2,
+    .services-heading h2,
+    .portfolio-heading h2,
+    .references-heading h2,
+    .resume-heading h2,
+    .contact-heading h2{
+        font-size: 54px;
+        display: inline-block;
+    }
+    .about-heading p,
+    .skills-heading p,
+    .services-heading p,
+    .portfolio-heading p,
+    .references-heading p,
+    .resume-heading p,
+    .contact-heading p{
+        text-align: left;
+        padding: 3px 85px 26px
+    }
+    .container-fluid p{
+        color: #000000;
+    }
+    .container-fluid img{
+        width: 85%;
+        height: 100vh;
+    }
+    .facts{
+        margin-top: 0px;
+        padding-top: 200px;
+    }
+    .facts-part-1{
+        margin-top: -10px;
+        padding-right: 0px;
+    }
+    .facts-icon-1 img{
+        height: 80px;
+        width: 82px;
+    }
+    .skills{
+        padding-top: 3px;
+    }
+    .skill-set{
+        display: flex;
+        justify-content: space-between;
+    }
+    .professional{
+        flex-basis: 30%;
+    }
+    .personal{
+        flex-basis: 30%;
+        margin-top: 0px;
+    }
+    .languages{
+        flex-basis: 30%;
+        margin-top: 0px;
+    }
+    .services{
+        padding-top: 95px;
+    }
+    .service-wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px 149px;
+        padding: 0px;
+        margin: 0px 149px;
+    }
+    .service-content{
+    
+    }
+}
+@media (min-width: 992px){
+
+}
+@media (min-width: 1200px){
+
+}
