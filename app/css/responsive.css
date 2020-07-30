@@ -120,8 +120,8 @@
         height: 380px;
         padding-top: 0px;
         padding-bottom: 0px;
-        width: 548px;
-        margin-left: -45px;
+        width: 549px;
+        margin-left: -50px;
         margin-top: 140px;
     }
     .person a {
@@ -414,8 +414,8 @@
         height: 407px;
         padding-top: 0px;
         padding-bottom: 58px;
-        width: 737px;
-        margin-left: -45px;
+        width: 738px;
+        margin-left: -50px;
         margin-top: 110px;
     }
     .person a {
@@ -453,6 +453,10 @@
         flex-basis: 65%;
         padding-right: 25px;
         padding-top: 65px;
+    }
+    .form-control,
+    .form-control-1{
+        width: 83%;
     }
     .btn-primary {
         width: 100%;
@@ -556,7 +560,7 @@
         height: 380px;
         padding-top: 77px;
         padding-bottom: 68px;
-        margin-right: -45px;
+        margin-right: -50px;
         margin-top: -45px;
     }
     .person a {
@@ -582,7 +586,7 @@
         padding-top: 65px;
     }
     .btn-primary {
-        width: 100%;
+        width: 95%;
     }
 }
 @media (min-width: 1200px){
@@ -594,7 +598,7 @@
         padding-top: 126px;
     }
     .profile-image img {
-        height: 101vh;
+        height: 112vh;
     }
     .about-heading h2, 
     .skills-heading h2, 
@@ -641,6 +645,9 @@
         font-size: 49px;
         padding-top: 69px;
     }
+    .skill-set {
+        padding-left: 35px;
+    }
     .service-wrapper {
         padding: 0px 5px;
     }
@@ -659,6 +666,10 @@
     .portfolio-wrapper {
         padding-top: 78px;
         padding-bottom: 40px;
+        margin: 0px -55px -24px 20px;
+    }
+    .ref-wrapper {
+        margin: 70px -25px 0px 20px;
     }
     .person a {
         height: 305px;
