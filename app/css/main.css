@@ -656,8 +656,10 @@ header{
     text-align: center;
     top: 91%;
     border-radius: 100%;
+    text-decoration: none;
 }
 .arrow i{
     line-height: 45px;
     position: relative;
+    text-decoration: none;
 }
