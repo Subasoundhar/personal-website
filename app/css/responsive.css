@@ -1,9 +1,68 @@
 @media (min-width: 576px){
+    .hero-wrapper h6{
+        color: #231d2a9c;
+        padding-top: 76px;
+    }
+    .hero-wrapper h1 {
+        font-size: 62px;
+        padding-top: 88px;
+    }
+    .hero-wrapper p {
+        font-size: 15px;
+        letter-spacing: 17px;
+        word-spacing: 0px;
+        color: #231d2a;
+        padding-top: 66px;
+    }
+    .profile-info h6 {
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+    .primary-btn .scroll, 
+    .primary-btn .download {
+        padding: 11px 22px;
+    }
+    .about-heading,
+    .skills-heading,
+    .services-heading,
+    .portfolio-heading,
+    .references-heading,
+    .resume-heading,
+    .contact-heading{
+        display: block;
+        line-height: 30px;
+    }
+    .about-heading h2,
+    .skills-heading h2,
+    .services-heading h2,
+    .portfolio-heading h2,
+    .references-heading h2,
+    .resume-heading h2,
+    .contact-heading h2{
+        font-size: 30px;
+        border-radius: 0px 50px;
+        padding: 11px 41px;
+    }
+    .about-heading p,
+    .skills-heading p,
+    .services-heading p,
+    .portfolio-heading p,
+    .references-heading p,
+    .resume-heading p,
+    .contact-heading p{
+        text-align: right;
+        font-size: 16px;
+        padding-right: 18px;
+    }
+    .container-fluid {
+        width: 90%;
+        padding: 0px 15px;
+    }
     .container-fluid h3{
-        font-size: 45px;
+        font-size: 50px;
     }
     .container-fluid h3 b{
-        font-size: 47px;
+        font-size: 49px;
     }
     .facts h3,
     .professional h3,
@@ -37,55 +96,152 @@
     .facts-part-1 p{
         padding-top: 19px;
     }
+    .cont-wrapper {
+        margin: 0px 7px;
+    }
+    .cont-item p {
+        flex-basis: 79%;
+    }
+    .portfolio-wrapper img {
+        width: 100%;
+        height: 510px;
+        padding-bottom: 11px;
+    }
+    .ref-text p {
+        color: #ffffffe0;
+        line-height: 31px;
+    }
+    .ref-wrapper {
+        background-color: #f69bac;
+        margin: 70px -15px 0px -15px;
+        padding-bottom: 0px;
+    }
+    .person {
+        height: 380px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 548px;
+        margin-left: -45px;
+        margin-top: 140px;
+    }
+    .person a {
+        height: 197px;
+        width: 34%;
+        left: 184px;
+        margin-top: 42px;
+    }
+    .person img {
+        transform: translate3d(0%, -7%, 0px);
+        width: 190px;
+        height: 197px;
+    }
+    .person h4 {
+        padding-top: 258px;
+    }
 }
 @media (min-width: 768px){
-    .hero-wrapper h6{
-        padding-top: 121px;
-        font-size: 23px;
-        color: #231d2ad1;
+    #hero {
+        height: 148vh;
+        width: 100%;
     }
-    .hero-wrapper h1{
-        font-size: 58px;
+    .hero-overlay {
+        height: 148vh;
+        width: 100%;
+    }
+    .hero-wrapper h6 {
+        padding-top: 116px;
+        font-size: 22px;
+        color: #0000008f;
+    }
+    .hero-wrapper h1 {
+        font-size: 62px;
         color: #2d2636;
+        padding-top: 60px;
     }
-    .hero-wrapper p{
+    .hero-wrapper p {
         font-size: 20px;
-        letter-spacing: 16px;
+        letter-spacing: 17px;
         word-spacing: 0px;
-        color: #231d2ad1;
-        padding-top: 28px;
+        color: #000000a8;
+        line-height: 41px;
+        padding-top: 16px;
     }
-    #profile{
-        position: relative;
-        background-color: #fff;
+    header {
+        padding: 10px 19px;
+    }
+    .header-logo img {
+        width: auto;
+        height: 36px;
+        padding-top: 7px;
+    }
+    .header-toggle {
+        flex-basis: 7%;
+        padding-top: 0px;
+    }
+    .header-toggle img {
+        height: 23px;
+        width: 21px;
+        padding-left: 30px;
+        padding-top: 8px;
+    }
+    #profile {
     }
     #id{
         display: flex;
         justify-content: space-between;
     }
     .profile-image{
-        flex-basis: 31%;
+        flex-basis: 30%;
     }
-    .profile-image img{
-        width: 100%;
-        height: 98vh;
+    .profile-image img {
+        height: 99vh;
     }
-    .profile-details{
+    .profile-details {
         position: initial;
+        flex-basis: 70%;
     }
-    .profile-info h2{
-        font-size: 38px;
-        padding-top: 75px;
+    .profile-info h2 {
+        font-size: 41px;
+        padding-top: 76px;
+        line-height: 55px;
     }
-    .primary-btn .download{
-        padding: 11px 13px;
+    .profile-info h6 {
+        font-size: 26px;
+        padding-top: 14px;
+        letter-spacing: 5px;
+        word-spacing: 5px;
     }
-    .primary-btn .scroll{
-        padding: 11px 13px;
+    .information {
+        padding: 11px 30px;
+        font-size: 16px;
     }
-    .about{
+    .information .info-title {
+        color: #fb9eafd1;
+    }
+    .information .info-body {
+        padding-left: 17px;
+        color: #00000094;
+    }
+    .primary-btn {
+        padding: 56px 30px;
+    }
+    .primary-btn .download, 
+    .primary-btn .scroll {
+        padding: 8px 11px;
+        font-size: 16px;
+    }
+    .about {
         position: relative;
-        top: 252px;
+        top: 243px;
+    }
+    .about-heading,
+    .skills-heading,
+    .services-heading,
+    .portfolio-heading,
+    .references-heading,
+    .resume-heading,
+    .contact-heading{
+        display: inline-block;
     }
     .about-heading h2,
     .skills-heading h2,
@@ -94,8 +250,10 @@
     .references-heading h2,
     .resume-heading h2,
     .contact-heading h2{
-        font-size: 54px;
-        display: inline-block;
+        font-size: 53px;
+        border-radius: 0px 58px;
+        padding: 12px 40px;
+        margin: 0px 104px 0px 0px;
     }
     .about-heading p,
     .skills-heading p,
@@ -104,34 +262,85 @@
     .references-heading p,
     .resume-heading p,
     .contact-heading p{
-        text-align: left;
-        padding: 3px 85px 26px
+        text-align: right;
+        font-size: 16px;
+        padding-right: 105px;
     }
-    .container-fluid p{
-        color: #000000;
+    .container-fluid {
+        width: 92%;
+        padding: 0px;
     }
-    .container-fluid img{
-        width: 85%;
-        height: 100vh;
+    .container-fluid h3 {
+        font-size: 50px;
+        padding: 68px 0px 24px;
+        line-height: 57px;
     }
-    .facts{
+    .container-fluid h3 b {
+        font-size: 50px;
+    }
+    .container-fluid p {
+        color: #000000a6;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .container-fluid img {
+        width: 80%;
+        height: 94vh;
+        margin-top: -18px;
+    }
+    .facts {
         margin-top: 0px;
-        padding-top: 200px;
+        padding-top: 184px;
+    }
+    .facts h3, 
+    .professional h3, 
+    .personal h3,
+    .languages h3, 
+    .education h3 {
+        font-size: 20px;
+        line-height: 7px;
+    }
+    .facts-wrapper {
+        padding: 0px 0px 52px;
+    }
+    .facts-part .facts-icon {
+        padding-top: 23px;
+    }
+    .facts-icon i {
+        color: #ffaec9;
+        font-size: 43px;
+    }
+    .facts-part h3, 
+    .facts-part-1 h3 {
+        font-size: 49px;
+        padding-top: 69px;
+    }
+    .facts-part p, 
+    .facts-part-1 p {
+        padding-top: 24px;
+        line-height: 25px;
+        font-size: 16px;
+        color: #00000085;
     }
     .facts-part-1{
-        margin-top: -10px;
+        margin: 0px -50px;
         padding-right: 0px;
     }
-    .facts-icon-1 img{
-        height: 80px;
-        width: 82px;
+    .facts-icon-1 {
+        margin-top: 3px;
+        margin-bottom: -85px;
     }
-    .skills{
-        padding-top: 3px;
+    .facts-icon-1 img{
+        height: 86px;
+        width: 36%;
+    }
+    .skills {
+        padding-top: 19px;
     }
     .skill-set{
         display: flex;
         justify-content: space-between;
+        padding-top: 33px;
     }
     .professional{
         flex-basis: 30%;
@@ -149,19 +358,331 @@
     }
     .service-wrapper{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        padding: 0px;
-        margin: 0px 149px;
-        padding: 0px;
-        margin: 0px 149px;
     }
-    .service-content{
-    
+    .service-content-1,
+    .service-content-2,
+    .service-content-3,
+    .service-content-4,
+    .service-content-5,
+    .service-content-6{
+        flex-basis: 42%;   
+        padding: 50px 20px 84px;
     }
+    .ser-icon-2 img{
+        width: 50%;
+        height: 50px;
+        margin-top: -5px;
+    }
+    .ser-icon-5 img{
+        width: 73%;
+        height: 48px;
+        margin-top: -10px;
+    }
+    .ser-info {
+        padding: 4px 6px 14px 6px;
+    }
+    .ser-info h5 {
+        font-size: 21px;
+    }
+    .container-fluid p {
+        color: #00000087;
+        font-size: 17px;
+    }
+    .portfolio-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0px -40px -24px -10px;
+    }
+    .portfolio-wrapper a{
+        flex-basis: 25%;
+    }
+    .portfolio-wrapper a img {
+        width: 86%;
+        height: 32vh;
+        margin-top: -18px;
+        margin-bottom: 20px;
+    }
+    .ref-wrapper {
+        background-color: #f69bac;
+        margin: 70px -15px 0px -15px;
+        padding-bottom: 0px;
+    }
+    .person {
+        height: 407px;
+        padding-top: 0px;
+        padding-bottom: 58px;
+        width: 737px;
+        margin-left: -45px;
+        margin-top: 110px;
+    }
+    .person a {
+        height: 296px;
+        width: 41%;
+        left: 226px;
+        margin-top: 34px;
+    }
+    .person img {
+        transform: translate3d(0%, 0%, 0px);
+        width: 302px;
+        height: 297px;
+    }
+    .person h4 {
+        padding-top: 348px;
+    }
+    .resume {
+        padding-top: 70px;
+    }
+    .education {
+        padding-top: 27px;
+    }
+    .cont h3{
+        font-size: 45px;
+    }
+    .form-set{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cont-item p{
+        color: #00000073;
+        font-weight: 100;
+    }
+    .info-data-2{
+        flex-basis: 65%;
+        padding-right: 25px;
+        padding-top: 65px;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+   
 }
 @media (min-width: 992px){
-
+    .hero-overlay {
+        background-color: #d8c0c454;
+    }
+    .hero-wrapper h6 {
+        padding-top: 134px;
+        font-size: 22px;
+    }
+    .hero-wrapper h1 {
+        font-size: 95px;
+        padding-top: 58px;
+    }
+    .hero-wrapper p {
+        font-size: 30px;
+        color: #00000087;
+        line-height: 0px;
+        padding-top: 34px;
+    }
+    .profile-info h2 {
+        font-size: 41px;
+        padding-top: 0px;
+        line-height: 55px;
+    }
+    .information {
+        padding: 11px 30px;
+        font-size: 17px;
+    }
+    .primary-btn .download, 
+    .primary-btn .scroll {
+        padding: 11px 22px;
+        font-size: 16px;
+    }
+    .about-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-para {
+        flex-basis: 55%;
+    }
+    .about-image{
+        flex-basis: 45%;
+    }
+    .about-image img{
+        width: 100%;
+        height: 84vh;
+        margin-top: 49px;
+    }
+    .service-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .service-content-1,
+    .service-content-2,
+    .service-content-3,
+    .service-content-4,
+    .service-content-5,
+    .service-content-6{
+        flex-basis: 27%;
+    }
+    .portfolio-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0px -40px -24px -10px;
+    }
+    .portfolio-wrapper a{
+        flex-basis: 25%;
+    }
+    .portfolio-wrapper a img {
+        width: 88%;
+        height: 51vh;
+        margin-top: -18px;
+        margin-bottom: 20px;
+    }
+    .ref-wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0px;
+        margin: 70px -25px 0px -25px;
+    }
+    .ref-text {
+        flex-basis: 50%;
+        background-color: #f69bac;
+        width: 100%;
+    }
+    .ref-text p {
+        padding-top: 12px;
+        font-weight: 100;
+        color: #ffffffe0;
+        line-height: 31px;
+    }
+    .person {
+        flex-basis: 50%;
+        height: 380px;
+        padding-top: 77px;
+        padding-bottom: 68px;
+        margin-right: -45px;
+        margin-top: -45px;
+    }
+    .person a {
+        height: 305px;
+        width: 31%;
+        left: 607px;
+        margin-top: 15px;
+    }
+    .person img {
+        transform: translate3d(0%, 0%, 0px);
+        width: 296px;
+        height: 305px;
+    }
+    .resume {
+        padding-top: 102px;
+    }
+    .cont h3 {
+        font-size: 43px;
+    }
+    .info-data-2 {
+        flex-basis: 65%;
+        padding-right: 0px;
+        padding-top: 65px;
+    }
+    .btn-primary {
+        width: 100%;
+    }
 }
 @media (min-width: 1200px){
-
+    .hero-wrapper h6 {
+        padding-top: 120px;
+        font-size: 23px;
+    }
+    .hero-wrapper h6 {
+        padding-top: 126px;
+    }
+    .profile-image img {
+        height: 101vh;
+    }
+    .about-heading h2, 
+    .skills-heading h2, 
+    .services-heading h2, 
+    .portfolio-heading h2, 
+    .references-heading h2, 
+    .resume-heading h2, 
+    .contact-heading h2 {
+        font-size: 55px;
+        padding: 10px 40px;
+    }
+    .container-fluid {
+        margin: 0px 25px;
+    }
+    .about-para{
+        flex-basis: 60%;
+        padding-left: 15px;
+    }
+    .about-image{
+        flex-basis: 40%;
+    }
+    .about-image img {
+        width: 95%;
+        height: 70vh;
+        margin: 47px 45px;
+    }
+    .facts {
+        margin-top: 0px;
+        padding-top: 253px;
+    }
+    .facts h3, 
+    .professional h3, 
+    .personal h3, 
+    .languages h3, 
+    .education h3 {
+        font-size: 22px;
+        line-height: 7px;
+    }
+    .facts-wrapper {
+        padding: 0px 55px 52px;
+    }
+    .facts-part h3, 
+    .facts-part-1 h3 {
+        font-size: 49px;
+        padding-top: 69px;
+    }
+    .service-wrapper {
+        padding: 0px 5px;
+    }
+    .service-content-1, 
+    .service-content-2, 
+    .service-content-3, 
+    .service-content-4, 
+    .service-content-5, 
+    .service-content-6 {
+        flex-basis: 25%;
+        margin: 0px 0px 55px 40px;
+    }
+    .portfolio{
+        padding-top: 30px;
+    }
+    .portfolio-wrapper {
+        padding-top: 78px;
+        padding-bottom: 40px;
+    }
+    .person a {
+        height: 305px;
+        width: 26%;
+        left: 736px;
+        margin-top: 15px;
+    }
+    .cont h3 {
+        font-size: 47px;
+    }
+    .form-control, 
+    .form-control-1{
+        font-size: 15px;
+    }
+    .info-data-1,
+    .info-data-2 {
+        flex-basis: 50%;
+    }
+    .info-data-2 {
+        padding-top: 65px;
+        margin-right: -30px;
+    }
+    .btn-primary {
+        width: 99%;
+    }
+    
 }

@@ -25,12 +25,12 @@ body{
 }
 .hero-wrapper h1{
     text-align: center;
-    font-size: 45px;
+    font-size: 53px;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 4px;
     line-height: 75px;
-    padding-top: 59px;
+    padding-top: 80px;
     color: #2d2636;
 }
 .hero-wrapper p{
@@ -41,7 +41,7 @@ body{
     word-spacing: 75px;
     color: #231d2ac7;
     line-height: 26px;
-    padding-top: 17px;
+    padding-top: 53px;
 }
 header{
     display: flex;
@@ -71,12 +71,9 @@ header{
     height: 25px;
     width: 21px;
 }
-#id{
+#profile{
     position: relative;
     background-color: #fff;
-}
-.profile-image{
-    
 }
 .profile-image img{
     width: 100%;
@@ -125,21 +122,20 @@ header{
     padding: 53px 30px;
     word-spacing: 1px;
 }
+.primary-btn .scroll,
 .primary-btn .download{
     color: #100e13;
     background: #f297a8;
     border-color: #f69bac;
     text-decoration: none;
-    padding: 8px 13px;
-    border-radius: 4px;
+    padding: 8px 8px;
+    border-radius: 5px;
 }
-.primary-btn .scroll{
-    color: #100e13;
-    background: #f297a8;
-    border-color: #f69bac;
-    text-decoration: none;
-    padding: 8px 13px;
-    border-radius: 4px;
+.primary-btn .scroll:hover,
+.primary-btn .download:hover{
+    color: #f69bac;
+    background-color: white;
+    border: 1px solid #f69bac;
 }
 .about{
     margin-top: -157px;
@@ -182,7 +178,7 @@ header{
     margin-left: auto;
 }
 .container-fluid h3{
-    font-size: 49px;
+    font-size: 46px;
     line-height: 52px;
     font-weight: 500;
     padding: 60px 0px 30px;
@@ -191,7 +187,7 @@ header{
 .container-fluid h3 b{
     color: #f69bac;
     font-family: 'Mulish', sans-serif;
-    font-size: 49px;
+    font-size: 48px;;
 }
 .container-fluid p{
     color: #0000009c;
@@ -212,10 +208,10 @@ header{
 .education h3{
     display: inline-block;
     padding-bottom: 2px;
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 100;
-    border-bottom: solid 1px #f30330;
-    color: #000000cf;
+    border-bottom: solid 2px #f69bac;
+    color: #00000094;
 }
 .facts-wrapper{
     text-align: center;
@@ -346,12 +342,27 @@ header{
 .service-wrapper{
     padding: 75px 0px 50px;
 }
-.service-content{
+.service-content-1,
+.service-content-2,
+.service-content-3,
+.service-content-4,
+.service-content-5,
+.service-content-6{
     padding: 50px 20px;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: center;
     margin-bottom: 36px;
+}
+.service-content-1:hover,
+.service-content-2:hover,
+.service-content-3:hover,
+.service-content-4:hover,
+.service-content-5:hover,
+.service-content-6:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f69bac;
 }
 .ser-icon-1,
 .ser-icon-2,
@@ -369,6 +380,15 @@ header{
     border-radius: 50%;
     margin: auto;
     margin-top: -2px;
+}
+.service-content-1:hover .ser-icon-1,
+.service-content-2:hover .ser-icon-2,
+.service-content-3:hover .ser-icon-3,
+.service-content-4:hover .ser-icon-4,
+.service-content-5:hover .ser-icon-5,
+.service-content-6:hover .ser-icon-6{
+    color: #fff;
+    border: 3px dashed #fff;
 }
 .ser-icon-2{
     font-size: 62px;
@@ -398,6 +418,22 @@ header{
     padding-bottom: 5px;
     padding-top: 14px;
 }
+.service-content-1:hover .ser-info h5,
+.service-content-2:hover .ser-info h5,
+.service-content-3:hover .ser-info h5,
+.service-content-4:hover .ser-info h5,
+.service-content-5:hover .ser-info h5,
+.service-content-6:hover .ser-info h5{
+    color: #fff;
+}
+.service-content-1:hover .ser-info p,
+.service-content-2:hover .ser-info p,
+.service-content-3:hover .ser-info p,
+.service-content-4:hover .ser-info p,
+.service-content-5:hover .ser-info p,
+.service-content-6:hover .ser-info p{
+    color: #fff;
+}
 .ser-icon-2 img{
     width: 52px;
     vertical-align: text-top;
@@ -415,13 +451,10 @@ header{
     height: 364px;
     padding-bottom: 11px;
 }
-.ref-wrapper{
+.ref-wrapper {
     background-color: #f69bac;
-    margin: 70px -15px 0px -15px;
-    padding-bottom: 104px;
-}
-.ref-text{
-    padding: 36px 39px;
+    margin: 70px -10px 0px -5px;
+    padding: 45px 50px 0px;
 }
 .ref-text .ref-ico i{
     color: #eabdc5ad;
@@ -432,39 +465,36 @@ header{
     font-weight: 100;
     color: #ffffffe0;
     line-height: 31px;
+    font-size: 17.4px;
 }
-.person{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.person {
+    height: 381px;
+    width: 379px;
+    margin-left: -51px;
+    margin-top: 140px;
+    padding: 0px 0px;
     background: #e6e6e6;
-    width: 100%;
-    height: 353px;
-    margin: 0px -16px;
-    padding: 0px 16px;
+    text-align: center;
 }
-.person a{
-    width: 213px;
+.person a {
+    height: 201px;
+    width: 48%;
     box-shadow: #f69bac 0px 0px 0px 5px;
-    position: relative;
     border-radius: 100%;
-    height: 198px;
+    position: absolute;
+    left: 118px;
+    margin-top: 42px;
 }
 .person img{
-    position: absolute;
-    top: 61%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0px);
+    transform: translate3d(0%, -6%, 0px);
     filter: grayscale(1);
-    width: auto;
-    height: 100%;
-    border-radius: 50%;
-    
+    width: 195px;
+    height: 198px;
+    box-shadow: none;
+    border-radius: 100%;
 }
 .person h4{
-    padding-top: 19px;
+    padding-top: 262px;
     text-transform: uppercase;
     color: #000000b8;
     font-weight: 100;
@@ -473,9 +503,6 @@ header{
 }
 .resume{
     padding-top: 50px;
-}
-.resume-heading{
-
 }
 .education{
     margin-top: 0;
@@ -510,9 +537,6 @@ header{
     width: 15px;
     height: 15px;
     padding: 0px;
-}
-.edu-date span{
-   
 }
 .edu-item-1 li,
 .edu-item-2 li,
@@ -566,21 +590,16 @@ header{
     font-size: 35px;
     margin-bottom: 25px;
 }
-span i{
-    
-}
 .cont-item p{
     flex-basis: 75%;
     padding-top: 30px;
     font-weight: 600;
     color: #0000008a;
 }
-.info-data{
+.info-data-2{
     padding-top: 41px;
     padding-bottom: 50px;
-}
-form .input-section{
-    
+    margin-left: -15px;
 }
 .form-control,
 .form-control-1{
@@ -599,16 +618,30 @@ form .input-section{
     border-radius: 10px;;
     height: 70px;
 }
+.form-control:focus,
+.form-control-1:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
 .btn-primary{
     color: #231d2a;
-    background: #f69bac;
-    border-color: #f69bac;
+    background-color: #f69bac;
     font-size: 14px;
     padding: 9px 0px;
+    border: #f69bac;
     line-height: 25px;
     display: inline-block;
-    width: 104%;
+    width: 100%;
     border-radius: 5px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    color: #f69bac;
+    background-color: white;
+    border: 1px solid #f69bac;
 }
 .arrow{
     font-size: 30px;
