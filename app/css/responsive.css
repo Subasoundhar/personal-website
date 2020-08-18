@@ -107,36 +107,38 @@
         height: 510px;
         padding-bottom: 11px;
     }
+    .ref-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ref-1{
+        padding-bottom: 30px;
+    }
     .ref-text p {
         color: #ffffffe0;
         line-height: 31px;
     }
-    .ref-wrapper {
-        background-color: #f69bac;
-        margin: 70px -15px 0px -15px;
-        padding-bottom: 0px;
-    }
     .person {
         height: 380px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        width: 549px;
-        margin-left: -50px;
-        margin-top: 140px;
+        width: 100%;
+        text-align: center;
     }
     .person a {
         height: 197px;
         width: 34%;
-        left: 184px;
-        margin-top: 42px;
+        left: 34%;
+        top: 13%;
     }
     .person img {
         transform: translate3d(0%, -7%, 0px);
-        width: 190px;
-        height: 197px;
+        width: 100%;
+        height: 100%;
     }
     .person h4 {
         padding-top: 258px;
+    }
+    .info-data-2{
+        margin-left: 0px;
     }
 }
 @media (min-width: 768px){
@@ -183,8 +185,6 @@
         width: 21px;
         padding-left: 30px;
         padding-top: 8px;
-    }
-    #profile {
     }
     #id{
         display: flex;
@@ -347,7 +347,6 @@
     }
     .personal{
         flex-basis: 30%;
-        margin-top: 0px;
     }
     .languages{
         flex-basis: 30%;
@@ -405,32 +404,31 @@
         margin-top: -18px;
         margin-bottom: 20px;
     }
-    .ref-wrapper {
-        background-color: #f69bac;
-        margin: 70px -15px 0px -15px;
-        padding-bottom: 0px;
+    .ref-1{
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .person {
-        height: 407px;
-        padding-top: 0px;
-        padding-bottom: 58px;
-        width: 738px;
-        margin-left: -50px;
-        margin-top: 110px;
+        height: 357px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        width: 100%;
+        position: relative;
     }
     .person a {
-        height: 296px;
-        width: 41%;
-        left: 226px;
-        margin-top: 34px;
+        position: absolute;
+        height: 210px;
+        width: 28%;
+        left: 35%;
+        top: 13%;
     }
     .person img {
         transform: translate3d(0%, 0%, 0px);
-        width: 302px;
-        height: 297px;
+        width: 100%;
+        height: 100%;
     }
     .person h4 {
-        padding-top: 348px;
+        padding-top: 255px;
     }
     .resume {
         padding-top: 70px;
@@ -461,8 +459,8 @@
     .btn-primary {
         width: 100%;
     }
-   
 }
+
 @media (min-width: 992px){
     .hero-overlay {
         background-color: #d8c0c454;
@@ -540,12 +538,13 @@
     }
     .ref-wrapper{
         display: flex;
+        flex-wrap: nowrap;
         justify-content: space-between;
         padding-bottom: 0px;
-        margin: 70px -25px 0px -25px;
+        margin: 0px;
     }
-    .ref-text {
-        flex-basis: 50%;
+    .ref-1{
+        flex-basis: 46%;
         background-color: #f69bac;
         width: 100%;
     }
@@ -556,23 +555,29 @@
         line-height: 31px;
     }
     .person {
-        flex-basis: 50%;
+        flex-basis: 54%;
         height: 380px;
-        padding-top: 77px;
-        padding-bottom: 68px;
-        margin-right: -50px;
-        margin-top: -45px;
+        padding-bottom: 82px;
+        margin-right: 0px;
+        margin-top: 70px;
     }
     .person a {
-        height: 305px;
-        width: 31%;
-        left: 607px;
-        margin-top: 15px;
+        height: 48%;
+        width: 50%;
+        top: 18%;
+        left: 27%;
+    }
+    .person h4{
+        margin-top: -25px;
+        padding: 340px 0px;
+    }
+    .person p{
+        margin-top: -335px;
     }
     .person img {
         transform: translate3d(0%, 0%, 0px);
-        width: 296px;
-        height: 305px;
+        width: 100%;
+        height: 100%;
     }
     .resume {
         padding-top: 102px;
@@ -672,10 +677,9 @@
         margin: 70px -25px 0px 20px;
     }
     .person a {
-        height: 305px;
-        width: 26%;
-        left: 736px;
-        margin-top: 15px;
+        height: 49%;
+        width: 45%;
+        left: 28%;
     }
     .cont h3 {
         font-size: 47px;
@@ -683,6 +687,7 @@
     .form-control, 
     .form-control-1{
         font-size: 15px;
+        width: 90%;
     }
     .info-data-1,
     .info-data-2 {
