@@ -5,17 +5,20 @@
     }
     .hero-wrapper h1 {
         font-size: 49px;
-        padding-top: 73px;
-        line-height: 54px;
+        padding-top: 60px;
+        line-height: 60px;
     }
     .hero-wrapper p {
-        font-size: 23px;
+        font-size: 20px;
         letter-spacing: 15px;
         word-spacing: 26px;
-        padding-top: 63px;
+        padding-top: 47px;
     }
     .call a {
-        font-size: 19px;
+        font-size: 17px;
+    }
+    .social-links {
+        left: -40px;
     }
     .profile-info h6 {
         font-size: 25px;
@@ -190,9 +193,8 @@
         padding: 10px 19px;
     }
     .header-logo img {
-        width: auto;
-        height: 36px;
-        padding-top: 7px;
+        width: 35%;
+        padding-top: 0px;
     }
     .header-toggle {
         flex-basis: 7%;
@@ -204,7 +206,7 @@
         padding-left: 30px;
         padding-top: 8px;
     }
-    #id{
+    #home{
         display: flex;
         justify-content: space-between;
     }
@@ -506,7 +508,6 @@
         width: 100%;
     }
 }
-
 @media (min-width: 992px){
     #hero {
         height: 102vh;
@@ -672,6 +673,123 @@
         word-spacing: 36px;
         line-height: 100px;
     }
+    header{
+        display: none;
+    }
+    #profile{
+    }
+    .main{
+        position: sticky;
+        width: 18%;
+        top: 0px;
+        left: 0px;
+        display: inline-block;
+    }
+    #main-menu{
+
+    }
+    #menu{
+        
+    }
+    .main-logo{
+        
+    }
+    .main-logo a{
+        
+    }
+    .main-logo a img{
+        width: 70%;
+        padding: 12px 33px 35px;
+    }
+    .main-image{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        padding-top: 160px;
+    }
+    .main-image a{
+        height: 117px;
+        width: 50%;
+        box-shadow: #f69bac 0px 0px 0px 5px;
+        border-radius: 100%;
+        position: absolute;
+        left: 25%;
+        top: -5%;
+    }
+    .main-image a img{
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+        border-radius: 100%;
+    }
+    #main-menu h1{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    #main-menu .nav-menu{
+        text-align: center;
+    }
+    .nav-menu li{
+        line-height: 30px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .nav-menu li:hover{
+        color: #f69bac;
+    }
+    .nav-menu li a{
+        color: black;
+        text-decoration: none;
+        list-style: none;
+    }
+    .main-bottom{
+        padding: 35px 15px;
+    }
+    .main-bottom a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+    .msg-links{
+        padding: 54px 0px 0px;
+        text-align: center;
+        word-spacing: 30px;
+    }
+    .msg-links a{
+            width: 32px;
+        height: 32px;
+        border: 1px solid #c5cad3;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 14px;
+        color: #70757f;
+        display: inline-block;
+        line-height: 30px;
+    }
+    .msg-links a:hover{
+        width: 32px;
+        height: 32px;
+        border: 1px solid #f69bac;
+        background-color: #f69bac;
+        text-align: center;
+        border-radius: 2px;
+        font-size: 14px;
+        color: #70757f;
+        display: inline-block;
+        line-height: 30px;
+    }
+    .msg-links a i{
+        display: inline-block;
+    }
+    .part-2{
+        position: relative;
+        bottom: 711px;
+        width: 80%;
+        left: 217px;
+    }
     .hero-wrapper p {
         font-size: 35px;
     }
@@ -698,9 +816,6 @@
         font-size: 55px;
         padding: 10px 40px;
     }
-    .container-fluid {
-        margin: 0px 25px;
-    }
     .about-para{
         flex-basis: 60%;
         padding-left: 15px;
@@ -712,6 +827,9 @@
         width: 95%;
         height: 70vh;
         margin: 47px 45px;
+    }
+    .container-fluid {
+        margin: 0px 25px;
     }
     .facts {
         margin-top: 0px;
@@ -746,7 +864,13 @@
     .service-content-5, 
     .service-content-6 {
         flex-basis: 25%;
-        margin: 0px 0px 55px 40px;
+        margin: 0px 0px 55px 0px;
+    }
+    .ser-info {
+        padding: 5px 6px 0px 6px;
+    }
+    .ser-info p{
+        margin-bottom: -45px;
     }
     .portfolio{
         padding-top: 30px;

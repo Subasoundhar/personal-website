@@ -97,8 +97,8 @@ header{
     line-height: 0px;
 }
 .header-logo img{
-    width: auto;
-    height: 35px;
+    width: 55%;
+    height: 100%;
 }
 .header-toggle{
     flex-basis: 7%;
@@ -109,6 +109,9 @@ header{
 .header-toggle img{
     height: 25px;
     width: 21px;
+}
+.main{
+    display: none;
 }
 #profile{
     position: relative;
@@ -435,7 +438,6 @@ header{
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: center;
-    margin-bottom: 36px;
 }
 .service-content-1:hover,
 .service-content-2:hover,
@@ -446,6 +448,12 @@ header{
     cursor: pointer;
     color: #fff;
     background-color: #f69bac;
+    position: relative;
+    transform-origin: left;
+    top: 0px;
+    left: 0px;
+    transition-property: all;
+    transition-timing-function: ease;
 }
 .ser-icon-1,
 .ser-icon-2,
