@@ -1,18 +1,16 @@
 @media (min-width: 576px){
     .hero-wrapper h6{
-        padding-top: 95px;
         font-size: 24px;
     }
     .hero-wrapper h1 {
         font-size: 49px;
-        padding-top: 60px;
         line-height: 60px;
     }
     .hero-wrapper p {
         font-size: 20px;
         letter-spacing: 15px;
-        word-spacing: 26px;
-        padding-top: 47px;
+        word-spacing: 37px;
+        padding-top: 30px;
     }
     .call a {
         font-size: 17px;
@@ -162,18 +160,17 @@
     #hero {
         height: 148vh;
         width: 100%;
+        vertical-align: middle;
     }
     .hero-overlay {
-        height: 148vh;
+        height: 100%;
         width: 100%;
     }
     .hero-wrapper h6 {
-        padding-top: 116px;
         font-size: 22px;
     }
     .hero-wrapper h1 {
         font-size: 59px;
-        padding-top: 60px;
         line-height: 59px;
     }
     .hero-wrapper p {
@@ -512,17 +509,16 @@
     #hero {
         height: 102vh;
         width: 100%;
+        vertical-align: middle;
     }
     .hero-overlay {
         background-color: #d8c0c454;
     }
     .hero-wrapper h6 {
-        padding-top: 134px;
         font-size: 22px;
     }
     .hero-wrapper h1 {
         font-size: 80px;
-        padding-top: 40px;
         line-height: 93px;
     }
     .hero-wrapper p {
@@ -664,14 +660,11 @@
 }
 @media (min-width: 1200px){
     .hero-wrapper h6 {
-        padding-top: 126px;
         font-size: 23px;
+        line-height: 60px;
     }
     .hero-wrapper h1 {
-        font-size: 96px;
-        padding-top: 40px;
-        word-spacing: 36px;
-        line-height: 100px;
+        font-size: 70px;
     }
     header{
         display: none;

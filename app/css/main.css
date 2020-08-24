@@ -8,32 +8,42 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    position: relative;
     width: 100%;
     height: 100vh;
+    vertical-align: middle;
+    top: 0px;
+    left: 0px;
 }
 .hero-overlay{
     position: fixed;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: #d8c0c4c9;
     top: 0;
     left: 0;
 }
+.hero-wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
 .hero-wrapper h6{
     text-align: center;
-    padding-top: 85px;
     font-size: 22px;
+    padding-bottom: 25px;
     font-weight: 300;
     color: #fff;
 }
 .hero-wrapper h1{
     text-align: center;
-    font-size: 31px;
+    font-size: 35px;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 4px;
     line-height: 42px;
-    padding-top: 64px;
     color: #fff;
 }
 .hero-wrapper p{
@@ -43,7 +53,7 @@ body{
     letter-spacing: 16px;
     color: #fff;
     line-height: 26px;
-    padding-top: 53px;
+    padding-top: 30px;;
 }
 .social-links{
     position: absolute;
@@ -118,6 +128,7 @@ header{
     background-color: #fff;
     top: 0;
     left: 0;
+    vertical-align: center;
 }
 .profile-image img{
     width: 100%;
@@ -608,7 +619,7 @@ header{
 .edu-item-1,
 .edu-item-2,
 .edu-item-3{
-    padding: 5px 0px 22px 5px;
+    padding: 5px 0px 22px 20px;
     margin-left: 5px;
     border-left: 1px solid #f69bac;
     position: relative;
@@ -623,7 +634,7 @@ header{
     position: absolute;
     background: #f69bac;
     top: 4px;
-    left: -20px;
+    left: -8px;
     border-radius: 100%;
     width: 15px;
     height: 15px;
