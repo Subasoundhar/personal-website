@@ -670,25 +670,20 @@
         display: none;
     }
     #profile{
+        display: flex;  
+        justify-content: space-between;
     }
     .main{
         position: sticky;
         width: 18%;
-        top: 0px;
-        left: 0px;
-        display: inline-block;
-    }
-    #main-menu{
-
-    }
-    #menu{
-        
-    }
-    .main-logo{
-        
-    }
-    .main-logo a{
-        
+        height: 100vh;
+        background-color: #fff;
+        overflow: auto;
+        box-shadow: 4px 0px 8px 0px rgba(0, 6, 33, 0.08);
+        z-index: 1;
+        top: 0;
+        display: flex;
+        flex-direction: column;
     }
     .main-logo a img{
         width: 70%;
@@ -778,10 +773,11 @@
         display: inline-block;
     }
     .part-2{
+        height: 100%;
         position: relative;
-        bottom: 711px;
-        width: 80%;
-        left: 217px;
+        width: 82%;
+        top: 0px;
+        left: 0px;
     }
     .hero-wrapper p {
         font-size: 35px;
@@ -846,6 +842,9 @@
     }
     .skill-set {
         padding-left: 35px;
+    }
+    .personal {
+        margin-top: 0px;
     }
     .service-wrapper {
         padding: 0px 5px;
