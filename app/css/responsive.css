@@ -181,7 +181,7 @@
         padding-top: 16px;
     }
     .social-links {
-        top: 33%;
+        top: 45%;
     }
     .social-links li a {
         font-size: 17px;
@@ -655,7 +655,7 @@
         padding-top: 65px;
     }
     .btn-primary {
-        width: 95%;
+        width: 93%;
     }
 }
 @media (min-width: 1200px){
@@ -765,7 +765,7 @@
         text-align: center;
         border-radius: 2px;
         font-size: 14px;
-        color: #70757f;
+        color: #fff;
         display: inline-block;
         line-height: 30px;
     }
