@@ -35,8 +35,6 @@
     }
     .about-heading,
     .skills-heading,
-    .services-heading,
-    .portfolio-heading,
     .references-heading,
     .resume-heading,
     .contact-heading{
@@ -45,8 +43,6 @@
     }
     .about-heading h2,
     .skills-heading h2,
-    .services-heading h2,
-    .portfolio-heading h2,
     .references-heading h2,
     .resume-heading h2,
     .contact-heading h2{
@@ -56,8 +52,6 @@
     }
     .about-heading p,
     .skills-heading p,
-    .services-heading p,
-    .portfolio-heading p,
     .references-heading p,
     .resume-heading p,
     .contact-heading p{
@@ -106,17 +100,6 @@
     }
     .facts-part-1 p{
         padding-top: 19px;
-    }
-    .cont-wrapper {
-        margin: 0px 7px;
-    }
-    .cont-item p {
-        flex-basis: 79%;
-    }
-    .portfolio-wrapper img {
-        width: 100%;
-        height: 510px;
-        padding-bottom: 11px;
     }
     .ref-wrapper {
         display: flex;
@@ -281,8 +264,6 @@
     }
     .about-heading,
     .skills-heading,
-    .services-heading,
-    .portfolio-heading,
     .references-heading,
     .resume-heading,
     .contact-heading{
@@ -290,8 +271,6 @@
     }
     .about-heading h2,
     .skills-heading h2,
-    .services-heading h2,
-    .portfolio-heading h2,
     .references-heading h2,
     .resume-heading h2,
     .contact-heading h2{
@@ -302,8 +281,6 @@
     }
     .about-heading p,
     .skills-heading p,
-    .services-heading p,
-    .portfolio-heading p,
     .references-heading p,
     .resume-heading p,
     .contact-heading p{
@@ -392,66 +369,21 @@
     }
     .personal{
         flex-basis: 30%;
+        margin-top: 0px;
     }
     .languages{
         flex-basis: 30%;
         margin-top: 0px;
     }
-    .services{
-        padding-top: 95px;
-    }
-    .service-wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .service-content-1,
-    .service-content-2,
-    .service-content-3,
-    .service-content-4,
-    .service-content-5,
-    .service-content-6{
-        flex-basis: 42%;   
-        padding: 50px 20px 84px;
-    }
-    .ser-icon-2 img{
-        width: 50%;
-        height: 50px;
-        margin-top: -5px;
-    }
-    .ser-icon-5 img{
-        width: 73%;
-        height: 48px;
-        margin-top: -10px;
-    }
-    .ser-info {
-        padding: 4px 6px 14px 6px;
-    }
-    .ser-info h5 {
-        font-size: 21px;
-    }
-    .container-fluid p {
-        color: #00000087;
-        font-size: 17px;
-    }
-    .portfolio-wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 0px -40px -24px -10px;
-    }
-    .portfolio-wrapper a{
-        flex-basis: 25%;
-    }
-    .portfolio-wrapper a img {
-        width: 86%;
-        height: 32vh;
-        margin-top: -18px;
-        margin-bottom: 20px;
+    .reference{
+        padding-top: 70px;
     }
     .ref-1{
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    .info-ref a{
+        color: #7f5155d6;
     }
     .person {
         height: 357px;
@@ -572,34 +504,6 @@
         height: 84vh;
         margin-top: 49px;
     }
-    .service-wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .service-content-1,
-    .service-content-2,
-    .service-content-3,
-    .service-content-4,
-    .service-content-5,
-    .service-content-6{
-        flex-basis: 27%;
-    }
-    .portfolio-wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 0px -40px -24px -10px;
-    }
-    .portfolio-wrapper a{
-        flex-basis: 25%;
-    }
-    .portfolio-wrapper a img {
-        width: 88%;
-        height: 51vh;
-        margin-top: -18px;
-        margin-bottom: 20px;
-    }
     .ref-wrapper{
         display: flex;
         flex-wrap: nowrap;
@@ -612,11 +516,18 @@
         background-color: #f69bac;
         width: 100%;
     }
+    .ref-text{
+        font-style: italic;
+        padding-top: 76px;
+    }
     .ref-text p {
         padding-top: 12px;
         font-weight: 100;
         color: #ffffffe0;
         line-height: 31px;
+    }
+    .info-ref a {
+        color: #fef3f5;
     }
     .person {
         flex-basis: 54%;
@@ -797,8 +708,6 @@
     }
     .about-heading h2, 
     .skills-heading h2, 
-    .services-heading h2, 
-    .portfolio-heading h2, 
     .references-heading h2, 
     .resume-heading h2, 
     .contact-heading h2 {
@@ -845,32 +754,6 @@
     }
     .personal {
         margin-top: 0px;
-    }
-    .service-wrapper {
-        padding: 0px 5px;
-    }
-    .service-content-1, 
-    .service-content-2, 
-    .service-content-3, 
-    .service-content-4, 
-    .service-content-5, 
-    .service-content-6 {
-        flex-basis: 25%;
-        margin: 0px 0px 55px 0px;
-    }
-    .ser-info {
-        padding: 5px 6px 0px 6px;
-    }
-    .ser-info p{
-        margin-bottom: -45px;
-    }
-    .portfolio{
-        padding-top: 30px;
-    }
-    .portfolio-wrapper {
-        padding-top: 78px;
-        padding-bottom: 40px;
-        margin: 0px -55px -24px 20px;
     }
     .ref-wrapper {
         margin: 70px -25px 0px 20px;

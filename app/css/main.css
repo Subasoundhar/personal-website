@@ -3,10 +3,10 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 #hero{
-    background-image: url(../images/section.jpg);
+    background-image: url(../images/select5.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
@@ -96,7 +96,7 @@ header{
     position: relative;
     height: auto;
     border-bottom: 1px solid #f5f5f5;
-    background-color: #fff;
+    background-color: #ffff;
     padding: 12px 20px;
     top: 0;
     left: 0;
@@ -274,10 +274,6 @@ header{
     text-align: center;
     padding-bottom: 66px;
 }
-.facts-part,
-.facts-part-1{
-
-}
 .facts-part:hover,
 .facts-part-1:hover{
     cursor: pointer;
@@ -435,136 +431,23 @@ header{
 .language-progress .progress-bar-2{
     width: 70%;
     animation-name: pers-bar-3;
-}
-.service-wrapper{
-    padding: 75px 0px 50px;
-}
-.service-content-1,
-.service-content-2,
-.service-content-3,
-.service-content-4,
-.service-content-5,
-.service-content-6{
-    padding: 50px 20px;
-    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    text-align: center;
-}
-.service-content-1:hover,
-.service-content-2:hover,
-.service-content-3:hover,
-.service-content-4:hover,
-.service-content-5:hover,
-.service-content-6:hover{
-    cursor: pointer;
-    color: #fff;
-    background-color: #f69bac;
-    position: relative;
-    transform-origin: left;
-    top: 0px;
-    left: 0px;
-    transition-property: all;
-    transition-timing-function: ease;
-}
-.ser-icon-1,
-.ser-icon-2,
-.ser-icon-3,
-.ser-icon-4,
-.ser-icon-5,
-.ser-icon-6{
-    width: 106px;
-    height: 105px;
-    line-height: 107px;
-    font-size: 36px;
-    color: #f69bac;
-    border: 3px dashed #f69bac;
-    text-align: center;
-    border-radius: 50%;
-    margin: auto;
-    margin-top: -2px;
-}
-.service-content-1:hover .ser-icon-1,
-.service-content-2:hover .ser-icon-2,
-.service-content-3:hover .ser-icon-3,
-.service-content-4:hover .ser-icon-4,
-.service-content-5:hover .ser-icon-5,
-.service-content-6:hover .ser-icon-6{
-    color: #fff;
-    border: 3px dashed #fff;
-}
-.ser-icon-2{
-    font-size: 62px;
-}
-.ser-icon-3{
-    font-size: 58px;
-}
-.ser-icon-4{
-    font-size: 53px;
-}
-.ser-icon-5{
-    font-size: 43px;
-}
-.ser-icon-6{
-    font-size: 61px;
-}
-.ser-info{
-    padding: 4px 4px 14px 4px;
-}
-.ser-info h5{
-    font-size: 20px;
-    font-weight: 400;
-    color: #4b4453;
-    display: inline-block;
-    line-height: 28px;
-    vertical-align: middle;
-    padding-bottom: 5px;
-    padding-top: 14px;
-}
-.service-content-1:hover .ser-info h5,
-.service-content-2:hover .ser-info h5,
-.service-content-3:hover .ser-info h5,
-.service-content-4:hover .ser-info h5,
-.service-content-5:hover .ser-info h5,
-.service-content-6:hover .ser-info h5{
-    color: #fff;
-}
-.service-content-1:hover .ser-info p,
-.service-content-2:hover .ser-info p,
-.service-content-3:hover .ser-info p,
-.service-content-4:hover .ser-info p,
-.service-content-5:hover .ser-info p,
-.service-content-6:hover .ser-info p{
-    color: #fff;
-}
-.ser-icon-2 img{
-    width: 52px;
-    vertical-align: text-top;
-}
-.ser-icon-5 img{
-    width: 74px;
-    vertical-align: text-top;
-}
-.portfolio-wrapper{
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
-.portfolio-wrapper img{
-    width: 100%;
-    height: 364px;
-    padding-bottom: 11px;
-}
+} 
 .ref-wrapper {
     display: flex;
     flex-wrap: wrap;
 }
 .ref-1{
     background-color: #f69bac;
-    padding: 45px 50px 15px;
+    padding: 45px 37px 35px;
     margin-top: 70px;
+    width: 100%;
 }
 .ref-text .ref-ico i{
     color: #eabdc5ad;
     font-size: 88px;
+}
+.ref-text{
+    font-style: italic;
 }
 .ref-text p{
     padding-top: 12px;
@@ -573,8 +456,18 @@ header{
     line-height: 31px;
     font-size: 17.4px;
 }
+.info-ref{
+    line-height: 25px;
+}
+.info-ref a{
+    text-decoration: none;
+    color: #ffffffe0;
+}
+.info-ref a:hover{
+    color: navajowhite;
+}
 .person {
-    height: 381px;
+    height: 350px;
     width: 100%;
     background: #e6e6e6;
     text-align: center;
