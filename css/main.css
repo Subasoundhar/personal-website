@@ -194,7 +194,7 @@ header{
     border: 1px solid #f69bac;
     cursor: pointer;
 }
-.about{
+#about{
     margin-top: -157px;
 }
 .about-heading h2,
@@ -438,7 +438,7 @@ header{
 }
 .ref-1{
     background-color: #f69bac;
-    padding: 45px 37px 35px;
+    padding: 45px 0px 35px 20px;
     margin-top: 70px;
     width: 100%;
 }
@@ -498,7 +498,7 @@ header{
     letter-spacing: 3px;
     padding-bottom: 3px;
 }
-.resume{
+#resume{
     padding-top: 50px;
 }
 .education{
