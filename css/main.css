@@ -71,7 +71,7 @@ body{
     text-decoration: none;
     font-size: 15px;
     font-weight: 300;
-    color: #231d2ac7;
+    color: #ffff;
 }
 .social-links li a:hover{
     color: rebeccapurple;
@@ -87,7 +87,7 @@ body{
     padding: 10px 30px;
     display: inline-block;
     text-decoration: none;
-    color: #231d2a;
+    color: #fff;
     font-size: 15px;
 }
 header{
@@ -96,7 +96,7 @@ header{
     position: relative;
     height: auto;
     border-bottom: 1px solid #f5f5f5;
-    background-color: #ffff;
+    background-color: #fff;
     padding: 12px 20px;
     top: 0;
     left: 0;
@@ -148,6 +148,7 @@ header{
     font-size: 33px;
     color: #000000d9;
     font-weight: 500;
+    margin-top: 30px;
     padding: 35px 65px 0px 35px;
     line-height: 1.4;
 }
@@ -181,7 +182,7 @@ header{
     word-spacing: 1px;
 }
 .primary-btn .download{
-    color: #100e13;
+    color: #fff;
     background: #f297a8;
     border: 1px solid #f297a8;
     text-decoration: none;
@@ -190,7 +191,7 @@ header{
 }
 .primary-btn .download:hover{
     color: #f69bac;
-    background-color: white;
+    background-color: #fff;
     border: 1px solid #f69bac;
     cursor: pointer;
 }
@@ -565,7 +566,7 @@ header{
 }
 .cont-wrapper{
     padding-top: 46px;
-    margin: 0px -15px
+    margin: 0px 10px;
 }
 .cont-item{
     display: flex;
@@ -585,7 +586,7 @@ header{
     margin-bottom: 25px;
 }
 .cont-item p{
-    flex-basis: 75%;
+    flex-basis: 78%;
     padding-top: 30px;
     font-weight: 600;
     color: #0000008a;
@@ -602,14 +603,13 @@ header{
     margin-bottom: 15px;
     background: #f2f4ec;
     border: 0;
-    border-radius: 30px;
+    border-radius: 10px;
     width: 87%;
     display: inline-block;
     height: 0px;
 }
 .form-control-1{
     font-size: 14px;
-    border-radius: 10px;;
     height: 70px;
 }
 .form-control:focus,
@@ -621,9 +621,9 @@ header{
     box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
 .btn-primary{
-    color: #231d2a;
+    color: #fff;
     background-color: #f69bac;
-    font-size: 14px;
+    font-size: 16px;
     padding: 9px 0px;
     border: #f69bac;
     line-height: 25px;
@@ -639,16 +639,16 @@ header{
 }
 .arrow{
     font-size: 30px;
-    line-height: 45px;
+    line-height: 50px;
     color: #fff;
     background-color: #f69bac;
     display: inline;
     height: 50px;
     width: 50px;
     position: fixed;
-    right: 7%;
+    right: 50px;
     text-align: center;
-    bottom: 0;
+    bottom: 30px;
     border-radius: 100%;
     text-decoration: none;
 }

@@ -611,12 +611,12 @@
     }
     .main-image a{
         height: 117px;
-        width: 50%;
+        width: 117px;
         box-shadow: #f69bac 0px 0px 0px 5px;
-        border-radius: 100%;
+        border-radius: 50%;
         position: absolute;
         left: 25%;
-        top: -5%;
+        top: 0%;
     }
     .main-image a img{
         width: 100%;
@@ -653,6 +653,7 @@
     }
     .main-bottom{
         padding: 35px 15px;
+        text-align: center;
     }
     .main-bottom a{
         text-decoration: none;
@@ -738,7 +739,7 @@
     }
     .facts {
         margin-top: 0px;
-        padding-top: 253px;
+        padding-top: 160px;
     }
     .facts h3, 
     .professional h3, 
