@@ -28,10 +28,10 @@
     }
     .profile-image img {
         width: 100%;
+        height: auto;
         background-repeat: no-repeat;
         background-position: top;
         margin-top: 0;
-        height: 658px;
     }
     .about-heading,
     .skills-heading,
@@ -117,19 +117,22 @@
         width: 100%;
         text-align: center;
     }
-    .person a {
-        height: 197px;
-        width: 34%;
-        left: 34%;
-        top: 13%;
-    }
-    .person img {
-        transform: translate3d(0%, -7%, 0px);
-        width: 100%;
-        height: 100%;
-    }
     .person h4 {
         padding-top: 258px;
+    }
+    .person a {
+        height: 100px;
+        width: 100px;
+        background: #c4c4c4;
+        border: 5px solid #c4c4c4;
+        border-radius: 50%;
+        left: 27%;
+        top: 18%;
+    }
+    .person img{
+        max-width: 100%;
+        border-radius: 50%;
+        padding: 0px;
     }
     .info-data-2{
         margin-left: 0px;
@@ -141,7 +144,6 @@
 }
 @media (min-width: 768px){
     #hero {
-        height: 148vh;
         width: 100%;
         vertical-align: middle;
     }
@@ -194,7 +196,7 @@
         flex-basis: 30%;
     }
     .profile-image img {
-        height: 99vh;
+        height: auto;
     }
     .profile-details {
         position: relative;
@@ -392,20 +394,22 @@
         width: 100%;
         position: relative;
     }
-    .person a {
-        position: absolute;
-        height: 210px;
-        width: 28%;
-        left: 35%;
-        top: 13%;
-    }
-    .person img {
-        transform: translate3d(0%, 0%, 0px);
-        width: 100%;
-        height: 100%;
-    }
     .person h4 {
         padding-top: 255px;
+    }
+    .person a {
+        height: 100px;
+        width: 100px;
+        background: #c4c4c4;
+        border: 5px solid #c4c4c4;
+        border-radius: 50%;
+        left: 27%;
+        top: 18%;
+    }
+    .person img{
+        max-width: 100%;
+        border-radius: 50%;
+        padding: 0px;
     }
     #resume {
         padding-top: 70px;
@@ -439,7 +443,7 @@
 }
 @media (min-width: 992px){
     #hero {
-        height: 102vh;
+        height: 100vh;
         width: 100%;
         vertical-align: middle;
     }
@@ -501,7 +505,7 @@
     }
     .about-image img{
         width: 100%;
-        height: 84vh;
+        height: auto;
         margin-top: 49px;
     }
     .ref-wrapper{
@@ -536,12 +540,6 @@
         margin-right: 0px;
         margin-top: 70px;
     }
-    .person a {
-        height: 48%;
-        width: 50%;
-        top: 18%;
-        left: 27%;
-    }
     .person h4{
         margin-top: -25px;
         padding: 340px 0px;
@@ -549,10 +547,19 @@
     .person p{
         margin-top: -335px;
     }
-    .person img {
-        transform: translate3d(0%, 0%, 0px);
-        width: 100%;
-        height: 100%;
+    .person a {
+        height: 100px;
+        width: 100px;
+        background: #c4c4c4;
+        border: 5px solid #c4c4c4;
+        border-radius: 50%;
+        left: 27%;
+        top: 18%;
+    }
+    .person img{
+        max-width: 100%;
+        border-radius: 50%;
+        padding: 0px;
     }
     #resume {
         padding-top: 102px;
@@ -666,7 +673,7 @@
         word-spacing: 30px;
     }
     .msg-links a{
-            width: 32px;
+        width: 32px;
         height: 32px;
         border: 1px solid #c5cad3;
         text-align: center;
@@ -674,7 +681,7 @@
         font-size: 14px;
         color: #70757f;
         display: inline-block;
-        line-height: 30px;
+        line-height: 32px;
     }
     .msg-links a:hover{
         width: 32px;
@@ -700,9 +707,6 @@
     }
     .hero-wrapper p {
         font-size: 35px;
-    }
-    .profile-image img {
-        height: 112vh;
     }
     .round{
         bottom: 0px;
@@ -731,7 +735,7 @@
     }
     .about-image img {
         width: 95%;
-        height: 70vh;
+        height: auto;
         margin: 47px 45px;
     }
     .container-fluid {
@@ -763,13 +767,22 @@
     .personal {
         margin-top: 0px;
     }
+    .person a {
+        height: 100px;
+        width: 100px;
+        background: #c4c4c4;
+        border: 5px solid #c4c4c4;
+        border-radius: 50%;
+        left: 27%;
+        top: 18%;
+    }
+    .person img{
+        max-width: 100%;
+        border-radius: 50%;
+        padding: 0px;
+    }
     .ref-wrapper {
         margin: 70px -25px 0px 20px;
-    }
-    .person a {
-        height: 49%;
-        width: 45%;
-        left: 28%;
     }
     .cont h3 {
         font-size: 47px;
