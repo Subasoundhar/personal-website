@@ -560,32 +560,31 @@ header{
 }
 .cont h3{
     text-align: center;
-    font-size: 44px;
+    font-size: 30px;
 }
-.cont-wrapper{
-    padding-top: 46px;
+.cont-wrapper {
+    padding-top: 50px;
     margin: 0px 10px;
 }
 .cont-item{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
 }
 .cont-item span{
-    width: 75px;
-    height: 75px;
-    line-height: 75px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     border-radius: 50%;
     color: #fff;
     background: #f69bac;
     display: inline-block;
-    margin: 0 25px 0 0;
     text-align: center;
-    font-size: 35px;
-    margin-bottom: 25px;
+    font-size: 20px;
 }
 .cont-item p{
-    flex-basis: 78%;
-    padding-top: 30px;
+    flex-basis: 83%;
     font-weight: 600;
     color: #0000008a;
 }
